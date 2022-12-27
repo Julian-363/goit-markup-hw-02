@@ -1,120 +1,130 @@
-/* Estudio */
-:root{
-    --color-azul: #2196f3;
-    --color-gris: #757575;
-    --color-blanco: #FFFFFF;
-    --color-azul-oscuro: #2F303A;
+:root {
+  --color-azul: #2196f3;
+  --color-gris: #757575;
+  --color-blanco: #ffffff;
+  --color-azul-oscuro: #2f303a;
+  --color-negro: #212121;
 }
 
+/* -------Estudio------- */
 
-body{
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #212121;
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--color-negro);
 }
 
 .logo-webstudios {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    font-family: raleway;
-    text-decoration: none;
-    color: var(--color-azul)
-}
- 
-li{
-    list-style: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  font-family: raleway;
+  text-decoration: none;
+  color: var(--color-azul);
 }
 
-.site-nav .nav  {
-    
+li {
+  list-style: none;
+}
+
+/* site nav  */
+
+.site-nav .nav.active {
+  color: var(--color-azul);
 }
 
 .nav:focus-within {
-    color: var(--color-azul);
+  color: var(--color-azul);
 }
 
-.service-request {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--color-blanco);
-    background: var(--color-azul)
+.info:focus-within {
+  color: var(--color-azul);
 }
 
 a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 a:hover {
-    color: var(--color-azul)
+  color: var(--color-azul);
 }
 
-.info:hover{
-    color: var(--color-azul)
+.info:hover {
+  color: var(--color-azul);
 }
+
+/* section title */
 
 .title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
 }
 
+.service-request {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-blanco);
+  background: var(--color-azul);
+}
+
+/* previous requirements */
+
 h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
 }
 
 h3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 
+/* -------Portafolio-------*/
 
-body {
-    
+/* header */
+
+header ul li a {
+  text-decoration: none;
+  color: var(--color-negro);
 }
-
-/* Portafolio */
 
 /* Filtro de la pagina */
 
-header ul li a {
-    color: #212121;
-    text-decoration: none;
-}
-
-.subtitles-p {
-    color: var(--color-gris)
-}
-
 button {
-    background: #F5F4FA;
-    border-radius: 4px;
-    cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .filter :focus {
-    background: var(--fondo-azul)
+  background: var(--fondo-azul);
 }
 
 .filter :hover {
-    transition: background-color .5s;
-    background: #2196f3;
-    color: var(--color-blanco)
+  transition: background-color 0.5s;
+  background: #2196f3;
+  color: var(--color-blanco);
 }
+
+/* others */
 
 .background {
-    background: var(--color-azul-oscuro)
+  background: var(--color-azul-oscuro);
 }
 
-.description{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: var(--color-blanco)
+.subtitles-p {
+  color: var(--color-gris);
 }
 
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-blanco);
+}
