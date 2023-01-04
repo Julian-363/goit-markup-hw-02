@@ -5,7 +5,11 @@
   --color-azul-oscuro: #2f303a;
   --color-negro: #212121;
   --color-gris-claro: #f5f4fa;
+<<<<<<< HEAD
   --text-decoracion: none;
+=======
+  --text-decoracion:none
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
 }
 
 /* -------Estudio------- */
@@ -20,10 +24,17 @@ body {
 .logo-webstudios {
   font-weight: 700;
   font-size: 26px;
+<<<<<<< HEAD
   line-height: 1.1;
   font-family: raleway;
   color: var(--color-azul);
   text-decoration: var(--text-decoracion);
+=======
+  line-height: 1,1;
+  font-family: raleway;
+  color: var(--color-azul);
+  text-decoration: var(--text-decoracion)
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
 }
 
 .logo-webstudios:hover {
@@ -31,7 +42,7 @@ body {
 }
 
 li {
-  list-style: none;
+  list-style: none
 }
 
 /* site nav  */
@@ -50,7 +61,12 @@ li {
 
 a {
   font-weight: 500;
+<<<<<<< HEAD
   line-height: 1.1;
+=======
+  font-size: 14px;
+  line-height: 1,1;
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
 }
 
 a:hover {
@@ -66,7 +82,13 @@ a:hover {
 }
 
 .details-description {
+<<<<<<< HEAD
   line-height: 1.7;
+=======
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,7;
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
   color: var(--color-gris);
 }
 
@@ -96,14 +118,22 @@ li.teachers:hover {
 .title {
   font-weight: 900;
   font-size: 44px;
+<<<<<<< HEAD
   line-height: 1.3;
+=======
+  line-height: 1,3;
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
   color: var(--color-blanco);
 }
 
 .service-request {
   font-weight: 700;
   font-size: 16px;
+<<<<<<< HEAD
   line-height: 1.8;
+=======
+  line-height: 1,8;
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
   letter-spacing: 0.06em;
   color: var(--color-blanco);
   background: var(--color-azul);
@@ -125,13 +155,21 @@ button.service-request:hover {
 .sub-title {
   font-weight: 700;
   font-size: 36px;
+<<<<<<< HEAD
   line-height: 1.1;
+=======
+  line-height: 1,1;
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
 }
 
 h3 {
   font-weight: 500;
   font-size: 16px;
+<<<<<<< HEAD
   line-height: 1.1;
+=======
+  line-height: 1,1;
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
 }
 
 /* -------Portafolio-------*/
@@ -140,7 +178,11 @@ h3 {
 
 header ul li a {
   color: var(--color-negro);
+<<<<<<< HEAD
   text-decoration: var(--text-decoracion);
+=======
+  text-decoration: var(--text-decoracion)
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
 }
 
 /* Filtro de la pagina */
@@ -149,7 +191,11 @@ button {
   font-family: roboto;
   font-weight: 500;
   font-size: 16px;
+<<<<<<< HEAD
   line-height: 1.6;
+=======
+  line-height: 1,6;
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -173,6 +219,13 @@ button:hover {
   color: white;
 }
 
+<<<<<<< HEAD
+=======
+.activar-button .filter:active {
+  color: var(--color-azul);
+}
+
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
 /* cards */
 
 .project-cards {
@@ -201,7 +254,13 @@ li.project-cards:hover {
 
 .description {
   font-style: normal;
+<<<<<<< HEAD
   line-height: 1.7;
+=======
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,7;
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
   letter-spacing: 0.03em;
   color: var(--color-blanco);
   text-decoration: var(--text-decoracion);
@@ -209,7 +268,13 @@ li.project-cards:hover {
 
 .description-info {
   font-style: normal;
+<<<<<<< HEAD
   line-height: 1.7;
+=======
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,7;
+>>>>>>> e957aa52c898fd5b9127f9e31baf11e490217ea7
   letter-spacing: 0.03em;
   color: var(--color-gris);
   text-decoration: var(--text-decoracion);
